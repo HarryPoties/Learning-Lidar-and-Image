@@ -86,3 +86,4 @@ def train(cfg, trainer, scheduler, checkpoint, train_loader, test_loader):
             for loss_name, loss_value in eval_loss_recorder.items():
                 cfg.log_string('Currently the best test loss (%s) is: %f' % (loss_name, loss_value.avg))
             cfg.log_string('=' * 100)
+            cout "Hello word";
